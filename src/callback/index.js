@@ -23,4 +23,17 @@ function greettin(name) {
 setTimeout(greettin, 2000, 'Isac')
 
 // Reto 
+// function code(callback) {
+//     window.setTimeout(() => {
+//         callback()
+//     }, 2000)
+// }
 
+function call(callback) {
+    console.log(`Log after 2s ${callback}`)
+}
+function print(msn) {
+    window.setTimeout(() => {
+        msn(console.log('Execute function', call))
+    }, 2000);
+}
