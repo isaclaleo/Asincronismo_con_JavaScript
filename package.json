@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/isaclaleo/Asincronismo_con_JavaScript/issues"
   },
-  "homepage": "https://github.com/isaclaleo/Asincronismo_con_JavaScript#readme"
+  "homepage": "https://github.com/isaclaleo/Asincronismo_con_JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
