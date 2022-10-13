@@ -4,7 +4,7 @@
   "description": "Apropia los conceptos fundamentales de asincronismo con JavaScript, aplica sus diferentes estructuras y desarrolla soluciones asíncronas. ¡Amplía tus conocimientos de programación creando una landing page!\r ## Javascript\r >> JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node  src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
