@@ -26,3 +26,18 @@ Apropia los conceptos fundamentales de asincronismo con JavaScript, aplica sus d
 ## JS 
 >> es asincrono y no bloquenate con un bucle de eventos cuncurrencia implementando con un unico hilo para sus interfases I/O
 
+## Call Stack 
+>> 
+
+## task queu 
+>> cola de tareas se maneja la concurrencia se agregan  las tareas que ya estan listas para pasar al Stack(pila)
+Debe de estar vacio
+
+## Micro Task Queue
+>> las promesas tiene otra forma de ejecutar y priorida
+
+## Web APIs
+>> JS de lado del cliente: SetTimeout, XMLHtttREquest File 
+
+## Even Loop 
+tarea asignada para mover de ltask queue al stack si solo esta basio el task 
