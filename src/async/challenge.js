@@ -22,6 +22,25 @@ const anotherF = async (urlApi) => {
 }
 
 anotherF(API);
+// Reto de clase18
+// En este desafío vas a conectarte a una API que no existe, por ende debes capturar el error haciendo uso de try/catch y lanzar un error con el mensaje API Not Found.La solución debería tener un input y output como los siguientes:
+// Input : await runCode();
+// Output : Error: API Not Found
+// 
+// MI SOLUCION 
+export async function runCode() {
+    const url = 'https://domain-api-com';
+    const data = await fetch(url);
+    const data1 = await response.json();
+    try {
+      console.log(data, data1);
+    } catch {
+      console.log('API Not Found')
+    }
+  }
+
+
+
 // Apuntes
 
 // 
